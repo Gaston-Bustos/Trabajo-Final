@@ -48,9 +48,9 @@ prevSlide.addEventListener ("click", function(){
       });
     }); 
 
-//https://morioh.com/p/5429543c4a07
+
    
 
-/* codigo */
+
 
 
