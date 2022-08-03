@@ -4,9 +4,9 @@ let nombre;
 genero= window.prompt ("De acuerdo a la identidad de genero ¿Se considera mujer/varon/no binario? (escribir en minuscula)")
 nombre= window.prompt ("¿Como te llamas?")
 
-if (genero== "varon" & genero== "Varon") {
+if (genero== "varon" && genero== "Varon") {
   document.querySelector("#saludo").innerHTML =( "Bienvenido " + nombre); 
-} else if (genero== "mujer" & genero== "Mujer") {
+} else if (genero== "mujer" && genero== "Mujer") {
   document.querySelector("#saludo").innerHTML =( "Bienvenida " + nombre);
 } else {
   document.querySelector("#saludo").innerHTML =( "Bienvenide " + nombre);
